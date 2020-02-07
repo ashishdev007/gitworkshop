@@ -25,4 +25,12 @@ public class Points {
         System.out.println(point2);
 
     }
+    
+    public static String whichSide(ArrayList<Integer> point){
+      if(point.get(1) >= 0){
+         return "Above";
+      }else{
+         return "Below";
+      }
+    }
 }
